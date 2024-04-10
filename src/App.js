@@ -1,12 +1,24 @@
 import React, { useState } from "react";
 import axios from "axios";
+
+import DisplayWeather from "./DisplayWeather";
 import "./App.css";
 
 function App() {
   const [city, setCity] = useState("");
+  const [weatherResponse, setWeatherResponse] = useState("");
 
   function getWeather(response) {
-    console.log(response.data);
+    let weather = {
+      city: response.data.name,
+      country: response.data.sys.country,
+      temperature: Math.round(response.data.main.temp),
+      description: response.data.weather[0].description,
+      windSpeed: response.data.wind.speed,
+      humidity: response.data.main.humidity,
+    };
+
+    setWeatherResponse(weather);
   }
 
   function searchCity(event) {
@@ -30,6 +42,7 @@ function App() {
         />
         <input type="submit" value="Search" />
       </form>
+      <DisplayWeather weather={weatherResponse} />
     </div>
   );
 }
