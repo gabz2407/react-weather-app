@@ -69,8 +69,12 @@ function App() {
         <ForecastResponse forecast={forecastResponse} />
       </div>
       <footer className="footer">
-        This project was created by <a href="/">Gabriela Agostinho</a> and it is
-        open-sourced on <a href="/">GitHUb</a>
+        This project was created by{" "}
+        <a href="https://www.linkedin.com/in/gabriela-agostinho-378b67207/">
+          Gabriela Agostinho
+        </a>{" "}
+        and it is open-sourced on{" "}
+        <a href="https://github.com/gabz2407/react-weather-app">GitHUb</a>
       </footer>
     </div>
   );
