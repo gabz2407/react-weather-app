@@ -1,0 +1,9 @@
+.ForecastResponse {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0 20px 0;
+  margin-top: 20px;
+  color: rgba(57, 22, 140, 0.877);
+  font-size: 16px;
+  font-weight: bold;
+}

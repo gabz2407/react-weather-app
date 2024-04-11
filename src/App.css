@@ -1,9 +1,38 @@
-.App {
+.App .weather-app {
+  width: 600px;
+  margin: 100px auto 50px;
+  border: 1px solid rgb(146, 147, 148);
+  padding: 30px;
+  border-radius: 8px;
 }
 
-.App {
-  width: 600px;
-  margin: 100px auto;
-  border: 1px solid slategrey;
-  padding: 30px;
+.App .weather-app form {
+  margin-bottom: 10px;
+}
+
+.App .weather-app .search-input {
+  width: 85%;
+  height: 32px;
+  border-radius: 5px;
+  border: 1px solid rgb(146, 147, 148);
+}
+.App .weather-app .search-button {
+  width: 14%;
+  height: 32px;
+  color: white;
+  background-color: rgba(57, 22, 140, 0.877);
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.App .footer {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(146, 147, 148);
+}
+
+.App .footer a {
+  text-decoration: none;
+  color: rgba(57, 22, 140, 0.877);
 }

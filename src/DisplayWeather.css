@@ -1,0 +1,19 @@
+.DisplayWeather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.DisplayWeather h1 {
+  color: rgba(57, 22, 140, 0.877);
+}
+
+.DisplayWeather .big-temperature {
+  font-size: 52px;
+  margin: 40px 0 15px 0;
+}
+
+.DisplayWeather .weather-properties {
+  font-size: 16px;
+  margin: 0;
+  color: rgb(146, 147, 148);
+}
