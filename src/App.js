@@ -27,8 +27,11 @@ function App() {
   function getForecast(response) {
     console.log(response);
     let forecast = {
-      maxTemp: Math.round(response.data.list[0].main.temp_max),
-      minTemp: Math.round(response.data.list[0].main.temp_min),
+      temp0: Math.round(response.data.list[0].main.temp),
+      temp1: Math.round(response.data.list[8].main.temp),
+      temp2: Math.round(response.data.list[16].main.temp),
+      temp3: Math.round(response.data.list[24].main.temp),
+      temp4: Math.round(response.data.list[32].main.temp),
     };
 
     setForecastResponse(forecast);
