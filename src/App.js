@@ -70,11 +70,21 @@ function App() {
       </div>
       <footer className="footer">
         This project was created by{" "}
-        <a href="https://www.linkedin.com/in/gabriela-agostinho-378b67207/">
+        <a
+          href="https://www.linkedin.com/in/gabriela-agostinho-378b67207/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Gabriela Agostinho
         </a>{" "}
         and it is open-sourced on{" "}
-        <a href="https://github.com/gabz2407/react-weather-app">GitHUb</a>
+        <a
+          href="https://github.com/gabz2407/react-weather-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHUb
+        </a>
       </footer>
     </div>
   );
